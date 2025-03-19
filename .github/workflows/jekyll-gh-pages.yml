@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # Esto asegura que se cargue lo generado por Angular
+          path: ./dist/browser  # Esto asegura que se cargue lo generado por Angular
 
   deploy:
     environment:
